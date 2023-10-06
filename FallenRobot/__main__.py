@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏᴏ 🦋 * {}, 💜 
+*ʜᴇʏᴏ 💀 * {}, ❤
 *๏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇᴀᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ɢᴇᴛ ᴘᴇᴀᴄᴇ .*
 *๏ ɪ ᴀᴍ * {} ! 
 ➻ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ʟᴀɢ ғʀᴇᴇ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.
@@ -84,16 +84,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🦋🦋 ʜᴇᴀᴠᴇɴ 🦋🦋",
+            text=" ʜᴇᴀᴠᴇɴ ",
             url=f"https://t.me/TeamAgora?livestream",
               ),
     ],
     [
-        InlineKeyboardButton(text="🦋 ɢᴄ ᴄᴏɴᴛʀᴏʟ 🦋", callback_data="help_back"),
-        InlineKeyboardButton(text="🦋 ᴠᴄ ᴄᴏɴᴛʀᴏʟ 🦋", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text=" ɢᴄ ᴄᴏɴᴛʀᴏʟ ", callback_data="help_back"),
+        InlineKeyboardButton(text=" ᴠᴄ ᴄᴏɴᴛʀᴏʟ ", callback_data="settings_back_helper"),
     ],
     [
-        InlineKeyboardButton(text="🦋 ᴀᴅᴠᴀɴᴄᴇ 🦋", callback_data="fallen_"),
+        InlineKeyboardButton(text=" ᴀᴅᴠᴀɴᴄᴇ ", callback_data="fallen_"),
     ],
 ]
 
@@ -350,9 +350,9 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
-            f"\n*➻ 🦋 ᴍʏ ʙɪʀᴛʜ : »* {uptime}"
-            f"\n*➻ 🦋 ᴍʏ ғᴀɴs : »* 60{sql.num_users()}"
-            f"\n*➻ 🦋 ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 10{sql.num_chats()}"
+            f"\n*➻  ᴍʏ ʙɪʀᴛʜ : »* {uptime}"
+            f"\n*➻  ᴍʏ ғᴀɴs : »* 60{sql.num_users()}"
+            f"\n*➻  ᴍʏ ᴛᴇʀʀɪᴛᴏʀɪᴇs : »* 10{sql.num_chats()}"
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
@@ -366,23 +366,23 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🦋 sᴜᴩᴩᴏʀᴛ 🦋", callback_data="fallen_support"
+                            text=" sᴜᴩᴩᴏʀᴛ ", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴄᴏᴍᴍᴀɴᴅs 🦋", callback_data="help_back"
+                            text=" ᴄᴏᴍᴍᴀɴᴅs ", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🦋 ᴍʏ ʜᴜʙʙʏ 🦋", url=f"https://t.me/mr_agora"
+                            text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/mr_agora"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴀʙᴏᴜᴛ ᴍᴇʜ 🦋",
+                            text=" ᴀʙᴏᴜᴛ ᴍᴇʜ ",
                             callback_data="source_",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🦋 ʙᴀᴄᴋ 🦋", callback_data="fallen_back"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="fallen_back"),
                     ],
                 ]
             ),
@@ -396,23 +396,23 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🦋 sᴜᴘᴘᴏʀᴛ 🦋", url=f"https://t.me/agoraworld"
+                            text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/agoraworld"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴜᴘᴅᴀᴛᴇs 🦋", url=f"https://t.me/teamagora"
+                            text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/teamagora"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🦋 ʙᴛs 🦋", url=f"https://t.me/btsarmyxd"
+                            text=" ʙᴛs ", url=f"https://t.me/btsarmyxd"
                         ),
                         InlineKeyboardButton(
-                            text="🦋 ᴄʜᴀᴛ 🦋",
+                            text=" ᴄʜᴀᴛ ",
                             url="https://t.me/do_jism_ek_jaan_op",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🦋 ʙᴀᴄᴋ 🦋", callback_data="fallen_"),
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="fallen_"),
                     ],
                 ]
             ),
