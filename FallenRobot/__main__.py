@@ -374,7 +374,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/mr_agora"
+                            text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/GODD_CRAFTY"
                         ),
                         InlineKeyboardButton(
                             text=" ᴀʙᴏᴜᴛ ᴍᴇʜ ",
@@ -396,10 +396,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/agoraworld"
+                            text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/radicals19"
                         ),
                         InlineKeyboardButton(
-                            text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/teamagora"
+                            text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/radicals_networks"
                         ),
                     ],
                     [
